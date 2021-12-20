@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView35" android:layout_width="match_parent" android:layout_height="wrap_content" android:rotationX="25" app:srcCompat="@drawable/tf"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="149dp">
+        <Button android:textSize="34sp" android:textColor="@color/purple_700" android:id="@+id/buttonPlay" android:background="?android:attr/panelBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PLAY" android:layout_weight="0" android:onClick="Play"/>
+    </LinearLayout>
+</LinearLayout>

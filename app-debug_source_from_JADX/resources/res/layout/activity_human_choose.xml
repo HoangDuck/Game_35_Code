@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="38dp"/>
+    <TextView android:textSize="60sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewPause" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CHOOSE NUMBER TO START"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="78dp"/>
+    <Button android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/button1" android:background="@android:color/holo_red_dark" android:layout_width="363dp" android:layout_height="wrap_content" android:text="1" android:onClick="NumberOne"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/button2" android:background="@android:color/holo_orange_dark" android:layout_width="363dp" android:layout_height="wrap_content" android:text="2" android:onClick="NumberTwo"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/button3" android:background="@android:color/holo_green_light" android:layout_width="363dp" android:layout_height="wrap_content" android:text="3" android:onClick="NumberThree"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/button4" android:background="@android:color/holo_blue_dark" android:layout_width="363dp" android:layout_height="wrap_content" android:text="4" android:onClick="NumberFour"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="12dp"/>
+    <Button android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/button5" android:background="@color/purple_700" android:layout_width="363dp" android:layout_height="wrap_content" android:text="5" android:onClick="NumberFive"/>
+</LinearLayout>

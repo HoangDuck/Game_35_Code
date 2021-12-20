@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="96sp" android:textStyle="bold" android:textColor="@color/purple_700" android:gravity="center" android:id="@+id/textViewPoint" android:layout_width="match_parent" android:layout_height="189dp" android:text="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="66dp">
+        <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/purple_700" android:gravity="center" android:id="@+id/textViewTurn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="AI selected"/>
+    </LinearLayout>
+    <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="@android:color/holo_red_dark" android:gravity="center" android:id="@+id/textViewPointPlus" android:layout_width="match_parent" android:layout_height="42dp" android:text="+0"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/purple_700" android:gravity="center" android:id="@+id/textViewChooseNumber" android:layout_width="match_parent" android:layout_height="62dp" android:text="Choose number"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="322dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="122dp">
+                <Button android:textSize="34sp" android:textColor="@color/white" android:id="@+id/buttonA" android:background="@color/purple_700" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="A" android:layout_weight="1"/>
+                <Button android:textSize="34sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/buttonB" android:background="@android:color/holo_red_dark" android:layout_width="wrap_content" android:layout_height="149dp" android:text="B" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="120dp">
+                <Button android:textSize="34sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/buttonC" android:background="?android:attr/colorPressedHighlight" android:layout_width="wrap_content" android:layout_height="152dp" android:text="C" android:layout_weight="1"/>
+                <Button android:textSize="34sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/buttonD" android:background="@android:color/holo_green_light" android:layout_width="wrap_content" android:layout_height="150dp" android:text="D" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
